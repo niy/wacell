@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Modern Admin v1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-04 12:14+0330\n"
+"Last-Translator: Nima Karimi <nima.k68@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ modern-admin
+#: includes/admin_bar.php:21 includes/dashboard_icons.php:26
+#: includes/dashboard_icons.php:45 includes/login_screen.php:12
+#: includes/menu_icons.php:14 includes/settings.php:22
+msgid "Settings Updated"
+msgstr "تنظیمات به روز شد"
+
+# @ modern-admin
+#: includes/admin_bar.php:242 includes/dashboard_icons.php:102
+#: includes/dashboard_icons.php:147 includes/login_screen.php:200
+#: includes/menu_icons.php:63 includes/settings.php:152
+msgid "Save Changes"
+msgstr "دخیره تنظیمات"
+
+# @ modern-admin
+#: includes/menu_icons.php:26
+msgid "Menu Icons"
+msgstr "شمایل منو (آیکن‌ها)"
+
+# @ modern-admin
+#: includes/settings.php:49
+msgid "Choose color"
+msgstr "انتخاب رنگ"
+
+# @ modern-admin
+#: includes/settings.php:53
+msgid "Default"
+msgstr "پیش‌فرض"
+
+# @ modern-admin
+#: includes/settings.php:58
+msgid "Red"
+msgstr "قرمز"
+
+# @ modern-admin
+#: includes/settings.php:63
+msgid "Yellow"
+msgstr "زرد"
+
+# @ modern-admin
+#: includes/settings.php:68
+msgid "Green"
+msgstr "سبز"
+
+# @ modern-admin
+#: includes/settings.php:79
+msgid "Custom"
+msgstr "دلخواه"
+
+# @ modern-admin
+#: includes/settings.php:93
+msgid "Admin Logo Image"
+msgstr "تصویر لوگو مدیر"
+
+# @ modern-admin
+#: includes/settings.php:101
+msgid "Admin Logo Text"
+msgstr "نوشته‌ی لوگو مدیر"
+
+# @ modern-admin
+#: includes/login_screen.php:143 includes/settings.php:108
+msgid "Logo URL"
+msgstr "آدرس وب لوگو"
+
+# @ modern-admin
+#: includes/login_screen.php:111
+msgid "Logo Image"
+msgstr "تصویر لوگو"
+
+# @ modern-admin
+#: includes/login_screen.php:122
+msgid "Logo Text"
+msgstr "نوشته لوگو"
+
+# @ modern-admin
+#: includes/login_screen.php:132
+msgid "Logo Title"
+msgstr "عنوان لوگو"
+
+# @ modern-admin
+#: includes/admin_bar.php:243 includes/dashboard_icons.php:103
+#: includes/dashboard_icons.php:148 includes/login_screen.php:201
+#: includes/menu_icons.php:64 includes/settings.php:153
+msgid "Reset"
+msgstr "بازنشانی مجدد"
+
+# @ modern-admin
+#: modern-admin.php:374
+msgid "Powered by WordPress"
+msgstr ""
+"این سایت توسط <a href=\"http://about.me/nimak\">نیما کریمی</a> و <a href="
+"\"http://about.me/amir.eslami>امیر اسلامی</a> طراحی شده است."
+
+# @ modern-admin
+#: modern-admin.php:385
+msgid "http://wordpress.org"
+msgstr " "
+
+# @ modern-admin
+#: includes/settings.php:42
+msgid "Settings"
+msgstr "تنظیمات"
+
+# @ modern-admin
+#: includes/settings.php:45
+msgid "Color"
+msgstr "رنگ"
+
+# @ modern-admin
+#: includes/settings.php:89
+msgid "Admin logo"
+msgstr "لوگو مدیر"
+
+# @ modern-admin
+#: includes/settings.php:73
+msgid "Purple"
+msgstr "بنفش"
+
+# @ modern-admin
+#: includes/dashboard_icons.php:108
+msgid ""
+"Note: If you could not see some dashboard widgets, please enter to Dashboard "
+"Home then return and set icons for them!"
+msgstr ""
+"توجه: اگر برخی از ابزارک‌های داشبورد نمایش داده نمی‌شوند، لطفا به داشبورد "
+"برگشته و برای آنها آیکون تعیین کنید!"
+
+# @ modern-admin
+#: includes/admin_bar.php:28 includes/dashboard_icons.php:52
+#: includes/dashboard_icons.php:59 includes/login_screen.php:19
+#: includes/menu_icons.php:21
+msgid "Reset Ok"
+msgstr "بازنشانی تنظیمات با موفقیت انجام شد"
+
+# @ modern-admin
+#: includes/login_screen.php:25
+msgid "Login Screen Setting"
+msgstr "تنظیمات صفحه ورود"
+
+# @ modern-admin
+#: includes/login_screen.php:104
+msgid "Login Form"
+msgstr "فرم ورود"
+
+# @ modern-admin
+#: includes/login_screen.php:153
+msgid "Remove Remember Me"
+msgstr "حذف \"مرا به خاطر بسپار\""
+
+# @ modern-admin
+#: includes/login_screen.php:164
+msgid "Remove Lost Password Link"
+msgstr "حذف لینک \"گم شدن پسورد\""
+
+# @ modern-admin
+#: includes/login_screen.php:175
+msgid "Remove Back to.... Link"
+msgstr "حذف لینک \"بازگشت به ...\""
+
+# @ modern-admin
+#: includes/login_screen.php:184
+msgid "Footer"
+msgstr "پانویس"
+
+# @ modern-admin
+#: includes/login_screen.php:191 includes/settings.php:122
+msgid "Footer Text"
+msgstr "نوشته پانویس"
+
+# @ modern-admin
+#: includes/settings.php:9
+msgid "Reset successfully"
+msgstr "بازنشانی با موفقیت انجام شد"
+
+# @ modern-admin
+#: includes/settings.php:29
+msgid "Reset ok"
+msgstr "بازنشانی با موفقیت انجام شد"
+
+# @ modern-admin
+#: includes/settings.php:118
+msgid "Footer Settings"
+msgstr "تنظیمات پانویس"
+
+# @ modern-admin
+#: includes/settings.php:129
+msgid "Footer Version"
+msgstr "نسخه پانویس"
+
+# @ modern-admin
+#: includes/settings.php:155
+msgid "Reset All Settings"
+msgstr "بازنشانی همه‌ی تنظیمات"
+
+# @ modern-admin
+#: modern-admin.php:470
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "سلام، %1$s"
+
+# @ modern-admin
+#: modern-admin.php:660
+msgid ""
+"Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
+msgstr ""
+"این سایت توسط <a href=\"http://about.me/nimak\">نیما کریمی</a> و <a href="
+"\"http://about.me/amir.eslami\">امیر اسلامی</a> طراحی شده است."
+
+# @ modern-admin
+#: includes/login_screen.php:33
+msgid "Enable custom login screen"
+msgstr "فعال کردن صفحه ورود شخصی"
+
+# @ modern-admin
+#: includes/login_screen.php:43
+msgid "Background"
+msgstr "پیش زمینه"
+
+# @ modern-admin
+#: includes/login_screen.php:50
+msgid "Background Image"
+msgstr "تصویر پیش زمینه"
+
+# @ modern-admin
+#: includes/login_screen.php:61
+msgid "Background Repeat"
+msgstr "تکرار پیش زمینه"
+
+# @ modern-admin
+#: includes/login_screen.php:77
+msgid "Background Color"
+msgstr "رنگ پیش زمینه"
+
+# @ modern-admin
+#: includes/login_screen.php:86
+msgid "Background Position"
+msgstr "مکان پیش زمینه"
+
+# @ modern-admin
+#: includes/settings.php:137
+msgid "Custom CSS"
+msgstr "کد شخصی"
+
+# @ modern-admin
+#: includes/settings.php:141
+msgid "Your CSS"
+msgstr "کد شما"
+
+# @ modern-admin
+#: includes/dashboard_icons.php:65
+msgid "Dashboard Settings"
+msgstr "تنظیمات پیشخوان"
+
+# @ modern-admin
+#: includes/dashboard_icons.php:81
+msgid "Title"
+msgstr "عنوان"
+
+# @ modern-admin
+#: includes/dashboard_icons.php:88
+msgid "Content"
+msgstr "محتوا"
+
+# @ modern-admin
+#: includes/dashboard_icons.php:89
+msgid "(Text or HTML content)"
+msgstr "(نوشته یا اچ‌تی‌ام‌ال)"

@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 
 define( 'WP_CONTENT_DIR', 'C:\xampp\htdocs\wp/wp-content' );
 define( 'WP_CONTENT_URL', 'http://localhost/wp/wp-content' );

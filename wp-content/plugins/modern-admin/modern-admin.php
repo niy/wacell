@@ -192,12 +192,12 @@ class modern_admin_ui{
 
     /** admin menu */
     public function register_modern_admin_menu(){
-        add_menu_page( 'Modern Admin', 'Modern Admin', 'manage_options', 'modern-admin-ui-settings', array($this,'modern_admin_ui_setting_page'), '' );
-        add_submenu_page( 'modern-admin-ui-settings', 'Settings', 'Settings', 'manage_options', 'modern-admin-ui-settings', array($this,'modern_admin_ui_setting_page') );
-        add_submenu_page( 'modern-admin-ui-settings', 'Admin Bar', 'Admin Bar', 'manage_options', 'modern-admin-bar', array($this,'modern_admin_bar') );
-        add_submenu_page( 'modern-admin-ui-settings', 'Menu Icons', 'Menu Icons', 'manage_options', 'modern-admin-menu-icons', array($this,'modern_admin_menu_icons') );
-        add_submenu_page( 'modern-admin-ui-settings', 'Dashboard Settings', 'Dashboard Settings', 'manage_options', 'modern-admin-dashboard-icons', array($this,'modern_admin_dashboard_icons') );
-        add_submenu_page( 'modern-admin-ui-settings', 'Login Screen', 'Login Screen', 'manage_options', 'modern-admin-login-screen', array($this,'modern_admin_login_screen') );
+        add_menu_page( 'مدیریت مدرن', 'مدیریت مدرن', 'manage_options', 'modern-admin-ui-settings', array($this,'modern_admin_ui_setting_page'), '' );
+        add_submenu_page( 'modern-admin-ui-settings', 'تنظیمات', 'تنظیمات', 'manage_options', 'modern-admin-ui-settings', array($this,'modern_admin_ui_setting_page') );
+        add_submenu_page( 'modern-admin-ui-settings', 'نوار ابزار مدیر', 'نوار ابزار مدیر', 'manage_options', 'modern-admin-bar', array($this,'modern_admin_bar') );
+        add_submenu_page( 'modern-admin-ui-settings', 'آیکون‌های منو', 'آیکون‌های منو', 'manage_options', 'modern-admin-menu-icons', array($this,'modern_admin_menu_icons') );
+        add_submenu_page( 'modern-admin-ui-settings', 'تنظیمات پیشخوان', 'تنظیمات پیشخوان', 'manage_options', 'modern-admin-dashboard-icons', array($this,'modern_admin_dashboard_icons') );
+        add_submenu_page( 'modern-admin-ui-settings', 'صفحه ورود', 'صفحه ورود', 'manage_options', 'modern-admin-login-screen', array($this,'modern_admin_login_screen') );
     }
 
     public function modern_admin_ui_setting_page(){
@@ -677,7 +677,7 @@ class modern_admin_ui{
         if(isset($_POST['reset_settings'])) return $upgrade;
         if(!isset($Options['settings']['admin_footer_version'])) echo '';
         elseif($Options['settings']['admin_footer_version']==1)
-            return $upgrade;
+            return '';//$upgrade;
 
 
     }
@@ -698,14 +698,14 @@ class modern_admin_ui{
     /** custom dashboard widget */
     function add_dashboard_widgets() {
         $Option=$this->getOptions();
-        $title=(!empty($Option['custom_db_widget']['title']))?$Option['custom_db_widget']['title']:"Your Custom Widget Title";
+        $title=(!empty($Option['custom_db_widget']['title']))?$Option['custom_db_widget']['title']:"نام ابزارک دلخواه شما";
         wp_add_dashboard_widget('custom_db_widget', $title, array($this,'db_wiget_content'));
 
 
     }
     function db_wiget_content($content){
         $Option=$this->getOptions();
-        $content=(!empty($Option['custom_db_widget']['content']))?$Option['custom_db_widget']['content']:"Your Custom Widget Content";
+        $content=(!empty($Option['custom_db_widget']['content']))?$Option['custom_db_widget']['content']:"محتوای ابزارک دلخواه شما";
         echo $content;
     }
     /** hover */

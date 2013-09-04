@@ -64,8 +64,8 @@ if(isset($_POST['reset_dashboard_widget'])){
     <div class="icon32" id="icon-tools"><br></div>
     <h2><?php _e('Dashboard Settings',self::LANG);?></h2>
     <ul class="dashboard-tab">
-        <li><a href="#dashboard_icons" class="active">Icons</a></li>
-        <li><a href="#dashboard_widget">Custom Dashboard Widget</a></li>
+        <li><a href="#dashboard_icons" class="active">آیکون‌ها</a></li>
+        <li><a href="#dashboard_widget">ابزارک دلخواه پیشخوان</a></li>
         <li class="clear"></li>
     </ul>
     <div id="dashboard_widget" style="display: none">
@@ -76,14 +76,14 @@ if(isset($_POST['reset_dashboard_widget'])){
                     <tbody>
                     <tr valign="top">
                         <?php $field="title";
-                        $value=(isset($Options['custom_db_widget'][$field]))?$Options['custom_db_widget'][$field]:'Your Custom Widget Title';
+                        $value=(isset($Options['custom_db_widget'][$field]))?$Options['custom_db_widget'][$field]:'نام ابزارک دلخواه شما';
                         ?>
                         <td style="width: 100px"><label for="custom_db_widget[<?php echo $field;?>]"><?php _e('Title',self::LANG);?></label></td>
                         <td><input type="text" name="custom_db_widget[<?php echo $field;?>]" class="modern-admin-custom-dashboard-text" value="<?php echo $value;?>"></td>
                     </tr>
                     <tr valign="top">
                         <?php $field="content";
-                        $value=(isset($Options['custom_db_widget'][$field]))?$Options['custom_db_widget'][$field]:'Your Custom Widget Content';
+                        $value=(isset($Options['custom_db_widget'][$field]))?$Options['custom_db_widget'][$field]:'محتوای ابزارک دلخواه شما';
                         ?>
                         <td><label for="custom_db_widget[<?php echo $field;?>]"><?php _e("Content",self::LANG);?></label><br />
                         <i><?php _e("(Text or HTML content)",self::LANG);?></i>

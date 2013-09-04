@@ -87,7 +87,7 @@ $admin_footer_version = (isset($Options['settings']['admin_footer_version']))?$O
             </tr>
             </tbody>
         </table>
-        <h4><?php _e('Admin menu',self::LANG);?></h4>
+        <h4><?php _e('منوی مدیریت',self::LANG);?></h4>
         <table class="form-table" id="modern-admin-icons-table">
             <tbody>
             <tr valign="top">
@@ -95,7 +95,7 @@ $admin_footer_version = (isset($Options['settings']['admin_footer_version']))?$O
                 <td id="front-static-pages">
                         <p>
                                 <input type="checkbox" id="admin_menu_hover" value="hover" <?php checked($hover,'hover');?> name="settings[hover]"/>
-                                <label for="admin_menu_hover"><?php _e('Hover to show submenu',self::LANG);?></label>
+                                <label for="admin_menu_hover"><?php _e('نمایش زیر منو با عبور ماوس',self::LANG);?></label>
                         </p>
                 </td>
             </tr>

@@ -147,7 +147,7 @@ if( strpos($responsive, 'responsive') !== false ) echo '<meta name="viewport" co
 						if(strpos($headerS,'bottom_nav_header') !== false){ $extraClose = "</div></div><div id='header_main_alternate' class='container_wrap'><div class='container'>";  }
 					 
 					 	echo $extraClose;
-    					echo "<div class='main_menu' data-selectname='".__('Select a page','avia_framework')."'>";
+    					echo "<div class='main_menu' data-selectname='".__('یک صفحه انتخاب کنید','avia_framework')."'>";
     					$args = array('theme_location'=>'avia', 'fallback_cb' => 'avia_fallback_menu', 'walker' => new avia_responsive_mega_menu());
     					wp_nav_menu($args); 
     					

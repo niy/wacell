@@ -699,7 +699,7 @@ if(!function_exists('avia_backend_admin_bar_menu'))
 		{
 			$menu = array(
 				'id' => 'edit',
-				'title' => __('Edit Frontpage','avia_framework'),
+				'title' => __('ویرایش صفحه‌ی اصلی','avia_framework'),
 				'href' => admin_url('post.php?post='.$real_id.'&action=edit'),
 				'meta' => array('target' => 'blank')
 			);

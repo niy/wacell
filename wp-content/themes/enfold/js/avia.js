@@ -1097,7 +1097,7 @@
     //plugin's default options
     var settings = {
       switchWidth: 768,
-      topOptionText: 'Select a page',
+      topOptionText: 'یک صفحه انتخاب کنید',
       indentString: '&nbsp;&nbsp;&nbsp;'
     };
 

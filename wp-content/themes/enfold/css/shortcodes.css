@@ -108,9 +108,9 @@ text-align: center;
 
 body .av-special-heading.classic-quote > *{
 display:block;
-font-family: "Droid Serif", Georgia, Times, serif;
+font-family: "Nassim","Droid Serif", Georgia, Times, serif;
 font-weight: normal;
-font-style: italic;
+font-style: normal;
 }
 
 body .av-special-heading.blockquote .special-heading-border{display:none;}
@@ -445,7 +445,7 @@ font-size: 0.8em;
 text-shadow: none;
 }
 
-.avia_message_box_content{ font-size: 1em; text-transform: uppercase; font-weight:600;}
+.avia_message_box_content{ font-size: 1em; text-transform: uppercase;}
 .avia_message_box_icon{ position: relative; right: -0.5em; font-size: 1.3em;}
 .avia_message_box.avia-size-normal{ padding: 17px; }
 .avia_message_box.avia-size-large{ padding: 35px; }

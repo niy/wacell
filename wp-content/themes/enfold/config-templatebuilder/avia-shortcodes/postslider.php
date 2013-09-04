@@ -267,7 +267,7 @@ if ( !class_exists( 'avia_post_slider' ) )
 					}
 
 
-					$permalink = '<div class="read-more-link"><a href="'.get_permalink($the_id).'" class="more-link">'.__('Read more','avia_framework').'<span class="more-link-arrow">  &rarr;</span></a></div>';
+					$permalink = '<div class="read-more-link"><a href="'.get_permalink($the_id).'" class="more-link">'.__('ادامه مطلب','avia_framework').'<span class="more-link-arrow">  &rarr;</span></a></div>';
 					$prepare_excerpt = !empty($entry->post_excerpt) ? $entry->post_excerpt : avia_backend_truncate($entry->post_content, apply_filters( 'custom_excerpt_length' , 45) , ".", "…", true);
 					
 					
@@ -313,16 +313,16 @@ if ( !class_exists( 'avia_post_slider' ) )
 					$output .= !empty($title) ? "<h3 class='slide-entry-title'><a href='{$link}' title='".esc_attr(strip_tags($title))."'>".$title."</a></h3>" : '';
 					if($show_meta && !empty($excerpt))
 					{
-						$output .= "<div class='slide-meta'>";
+						//$output .= "<div class='slide-meta'>";
 						if ( $commentCount != "0" || comments_open($the_id) && $entry->post_type != 'portfolio')
 						{
 							$link_add = $commentCount === "0" ? "#respond" : "#comments";
-							$text_add = $commentCount === "1" ? __('Comment', 'avia_framework' ) : __('Comments', 'avia_framework' );
+							$text_add = $commentCount === "1" ? __('نظر', 'avia_framework' ) : __('نظرات', 'avia_framework' );
 
-							$output .= "<div class='slide-meta-comments'><a href='{$link}{$link_add}'>{$commentCount} {$text_add}</a></div><div class='slide-meta-del'>/</div>";
+							//$output .= "<div class='slide-meta-comments'><a href='{$link}{$link_add}'>{$commentCount} {$text_add}</a></div><div class='slide-meta-del'>/</div>";
 						}
-						$output .= "<div class='slide-meta-time'>" .get_the_time(get_option('date_format'), $the_id)."</div>";
-						$output .= "</div>";
+						//$output .= "<div class='slide-meta-time'>" .get_the_time(get_option('date_format'), $the_id)."</div>";
+						//$output .= "</div>";
 					}
 					$output .= !empty($excerpt) ? "<div class='slide-entry-excerpt'>".$excerpt."</div>" : "";
 					$output .= "</div>";

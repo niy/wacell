@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-08-26 19:34+0330\n"
+"PO-Revision-Date: 2013-09-04 11:39+0330\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2105,7 +2105,7 @@ msgstr "این پوسته خراب است."
 
 #: wp-admin/includes/class-wp-themes-list-table.php:183
 msgid "Version: "
-msgstr "نگارش:"
+msgstr " "
 
 #: wp-admin/custom-background.php:263
 msgid "Set as background"
@@ -4241,7 +4241,7 @@ msgstr "غیرفعال کردن"
 #: wp-admin/includes/update.php:86 wp-admin/includes/update.php:112
 #: wp-admin/themes.php:145
 msgid "Version %s"
-msgstr "نگارش %s"
+msgstr " "
 
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:331
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:193
@@ -5495,7 +5495,7 @@ msgstr "متاسفانه این نوع پرونده به دلیل مسائل ا�
 
 #: wp-admin/admin-header.php:32 wp-admin/customize.php:66
 msgid "%1$s &#8212; WordPress"
-msgstr "%1$s &#8212; واسل"
+msgstr "%1$s &#8212; واصل"
 
 #: wp-admin/user-edit.php:221
 msgid ""
@@ -5592,7 +5592,7 @@ msgstr "کاربر تازه‌ای بسازید و به این سایت اضاف
 
 #: wp-admin/admin-header.php:34
 msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
-msgstr "%1$s &lsaquo; %2$s &#8212; واسل"
+msgstr "%1$s &lsaquo; %2$s &#8212; واصل"
 
 #: wp-admin/user-new.php:288 wp-admin/user-new.php:378
 msgid "Add the user without sending them a confirmation email."
@@ -7110,9 +7110,7 @@ msgid ""
 msgid_plural ""
 "Theme <span class=\"b\">%1$s</span> with <span class=\"b\"><a href=\"widgets."
 "php\">%2$s Widgets</a></span>"
-msgstr[0] ""
-"پوسته <span class=\"b\">%1$s</span> به‌همراه <span class=\"b\"><a href="
-"\"widgets.php\">%2$s ابزارک</a></span>"
+msgstr[0] "به پیشخوان وبسایت خودتان خوش آمدید."
 
 #: wp-admin/update-core.php:244 wp-admin/update-core.php:292
 msgid "You have version %1$s installed. Update to %2$s."

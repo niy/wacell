@@ -67,11 +67,11 @@ if (have_posts()) :
 				//echo the post title
 			    echo $title;
 
-				?>
-				<span class='post-meta-infos'>
-					<span class='date-container minor-meta'><?php the_time('d M Y') ?></span>
+				?><?php
+				/*<span class='post-meta-infos'>
+					<span class='date-container minor-meta'><?php the_time('d M Y') ?></span>*/?>
 
-					<?php if ( get_comments_number() != "0" || comments_open() ){
+					<?php /*if ( get_comments_number() != "0" || comments_open() ){
 					echo "<span class='text-sep'>/</span>";
 					echo "<span class='comment-container minor-meta'>";
 					comments_popup_link(  "0 ".__('نظرات','avia_framework'),
@@ -104,7 +104,7 @@ if (have_posts()) :
 						echo $cats;
 						echo '</span>';
 					}
-
+*/
 					?>
 
 				</span>

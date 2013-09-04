@@ -17,11 +17,11 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 ?>
 <div class="wrap about-wrap">
 
-<h1><?php printf( __( 'Welcome to WordPress %s' ), $display_version ); ?></h1>
+<h1><?php printf( __( 'به سایت خودتان خوش آمدید' ), $display_version ); ?></h1>
 
-<div class="about-text"><?php printf( __( 'Thank you for updating to the latest version. WordPress %s makes your writing experience even better.' ), $display_version ); ?></div>
+<div class="about-text"><?php printf( __( 'از اینکه سایت خود را به روز کردید تشکر می‌کنیم.' ), $display_version ); ?></div>
 
-<div class="wp-badge"><?php printf( __( 'Version %s' ), $display_version ); ?></div>
+<div class="wp-badge"><?php printf( __( '' ), $display_version ); ?></div>
 
 <h2 class="nav-tab-wrapper">
 	<a href="about.php" class="nav-tab nav-tab-active">

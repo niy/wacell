@@ -18,9 +18,9 @@ if ( !defined('ABSPATH') )
 <div id="wpfooter">
 <?php do_action( 'in_admin_footer' ); ?>
 <p id="footer-left" class="alignleft"><?php
-echo apply_filters( 'admin_footer_text', '<span id="footer-thankyou">' . __( 'Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.' ) . '</span>' );
+echo '<span id="footer-thankyou">طراحی شده توسط <a href="http://about.me/nimak">نیما کریمی</a> و <a href="http://about.me/amir.eslami">امیر اسلامی</a>.</span>';
 ?></p>
-<p id="footer-upgrade" class="alignright"><?php echo apply_filters( 'update_footer', '' ); ?></p>
+<p id="footer-upgrade" class="alignright"><?php //echo apply_filters( 'update_footer', '' ); ?></p>
 <div class="clear"></div>
 </div>
 <?php

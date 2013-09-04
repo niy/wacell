@@ -35,10 +35,10 @@ if (have_posts()) :
 			    echo "<h2 class='post-title'><a title='".the_title_attribute('echo=0')."' href='".get_permalink()."'>".get_the_title()."</a></h2>";
 
 				?>
-				<span class='post-meta-infos'>
-					<span class='date-container minor-meta'><?php the_time('d M Y') ?></span>
+				<?php /*<span class='post-meta-infos'>
+					<span class='date-container minor-meta'><?php the_time('d M Y') ?></span>*/?>
 
-					<?php
+					<?php /*
 					if(get_post_type() !== "page")
 					{
 						if ( get_comments_number() != "0" || comments_open() )
@@ -76,10 +76,11 @@ if (have_posts()) :
 						echo $cats;
 						echo '</span>';
 					}
-
+echo '</span>';
+ */
 					?>
 
-				</span>
+
 				<?php
 
 				the_excerpt()
@@ -119,13 +120,13 @@ if (have_posts()) :
 		<h3 class=''><?php _e('', 'avia_framework'); ?></h3>
 
 <?php
-the_widget('avia_combo_widget', 'error404widget', array('widget_id'=>'arbitrary-instance-'.$id,
+/*the_widget('avia_combo_widget', 'error404widget', array('widget_id'=>'arbitrary-instance-'.$id,
         'before_widget' => '<div class="widget avia_combo_widget">',
         'after_widget' => '</div>',
         'before_title' => '<h3 class="widgettitle">',
         'after_title' => '</h3>'
     ));
-
+*/
 	echo "</div>";
 
 	endif;

@@ -688,17 +688,17 @@ position: relative;
 }
 
 #top .title_container .container{
-padding:10px 0;
-min-height: 56px;
+padding:2px 0;
+min-height: 24px;
 }
 
 .title_container .main-title {
 margin: 0;
-font-size: 1.2em;
+font-size: 0.9em;
 position: relative;
 z-index: 2;
-min-height: 36px;
-line-height: 2.3em;
+height: 16px;
+line-height: 1.4em;
 top: 0;
 font-weight: 400;
 }
@@ -719,8 +719,8 @@ margin: 1.3em 0 0 0;
 
 .title_container .breadcrumb {
 z-index: 10;
-line-height: 15px;
-font-size: 1em;
+line-height: 1em;
+font-size: 0.9em;
 position: absolute;
 left: 0;
 text-align: right;
@@ -2227,7 +2227,7 @@ padding:15px 0;
 #socket .menu{margin-top:6px;}
 #socket .sub_menu_socket{float:right; margin:0;}
 #socket .sub_menu_socket div{overflow: hidden;}
-#socket .sub_menu_socket li{float:left; display:block; padding:0 10px; border-left-style: solid; border-left-width: 1px; line-height: 10px;}
+#socket .sub_menu_socket li{font-size: 1.4em;float:left; display:block; padding:0 10px; border-left-style: solid; border-left-width: 1px; line-height: 10px;}
 #socket .sub_menu_socket li:first-child{border:none;}
 #socket .sub_menu_socket li:last-child{padding-right:0;}
 

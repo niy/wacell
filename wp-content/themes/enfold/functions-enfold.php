@@ -96,10 +96,10 @@ if(!function_exists('avia_ajax_search'))
 	        $output .= "</span>";
 	        $output .= "<span class='ajax_search_content'>";
 	        $output .= "    <span class='ajax_search_title'>";
-	        $output .=       __("Sorry, no posts matched your criteria", 'avia_framework');
+	        $output .=       __("متاسفانه جستجوی شما نتیجه‌ای نداشت.", 'avia_framework');
 	        $output .= "    </span>";
 	        $output .= "    <span class='ajax_search_excerpt'>";
-	        $output .=      __("Please try another search term", 'avia_framework');
+	        $output .=      __("لطفا جستجوی دیگری انجام دهید", 'avia_framework');
 	        $output .= "    </span>";
 	        $output .= "</span>";
 	        $output .= "</span>";
@@ -171,7 +171,7 @@ if(!function_exists('avia_ajax_search'))
 	    }
 
 	    $query = http_build_query($_REQUEST);
-	    $output .= "<a class='ajax_search_entry ajax_search_entry_view_all' href='".home_url('?' . $query )."'>".__('View all results','avia_framework')."</a>";
+	    $output .= "<a class='ajax_search_entry ajax_search_entry_view_all' href='".home_url('?' . $query )."'>".__('نمایش تمام نتایج','avia_framework')."</a>";
 
 	    echo $output;
 	    die();

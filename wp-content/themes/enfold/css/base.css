@@ -64,12 +64,12 @@
 ================================================== */
 @font-face {font-family: 'Nassim';src: url('../fonts/nassim-regular.eot?') format('eot'), url('../fonts/nassim-regular.woff') format('woff'), url('../fonts/nassim-regular.ttf') format('truetype');}
 	/*font-stacks*/
-	.lucida-sans-websave{	font-family:"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif ;	}
-	.georgia-websave{		font-family:"Georgia", "Times New Roman", Times, serif;	}
-	.arial-websave{			font-family: Arial, Helvetica, Verdana, sans-serif;	}
-	.verdana-websave{		font-family: Verdana, Arial, Helvetica, sans-serif;	}
-	.helvetica-websave{		font-family: Helvetica, "HelveticaNeue", "Helvetica Neue", Arial, Verdana, sans-serif;	}
-	.helvetica-neue-websave{font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;	}
+	.lucida-sans-websave{	font-family:"Nassim","Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif ;	}
+	.georgia-websave{		font-family:"Nassim","Georgia", "Times New Roman", Times, serif;	}
+	.arial-websave{			font-family: "Nassim",Arial, Helvetica, Verdana, sans-serif;	}
+	.verdana-websave{		font-family: "Nassim",Verdana, Arial, Helvetica, sans-serif;	}
+	.helvetica-websave{		font-family: "Nassim",Helvetica, "HelveticaNeue", "Helvetica Neue", Arial, Verdana, sans-serif;	}
+	.helvetica-neue-websave{font-family: "Nassim","HelveticaNeue", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;	}
 
 	/*default*/
 	h1, h2, h3, h4, h5, h6 {
@@ -89,7 +89,7 @@
 	margin-top:1.5em;
 	}
 
-	p { margin: 0.85em 0; }
+	p { line-height: 1.5em;margin: 0.85em 0; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px;   }
 

@@ -109,7 +109,7 @@ if (have_posts()) :
 
 			    echo $title;
 
-				echo "<span class='post-meta-infos'>";
+				/*echo "<span class='post-meta-infos'>";
 				echo "<span class='date-container minor-meta'>".get_the_time('d M Y')."</span>";
 				echo "<span class='text-sep'>/</span>";
 
@@ -153,7 +153,7 @@ if (have_posts()) :
 					echo '<span class="blog-author minor-meta">'.__('توسط','avia_framework')." ";
 					the_author_posts_link();
 					echo '</span>';
-				echo '</span>';
+				echo '</span>';*/
 
 
 				// echo the post content
